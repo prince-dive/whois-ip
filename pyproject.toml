@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "whois-ip"
+version = "0.1.0"
+description = ""
+authors = ["Prince_dive"]
+readme = "README.md"
+packages = [{include = "whois_ip"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
